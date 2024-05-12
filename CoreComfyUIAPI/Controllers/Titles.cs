@@ -11,31 +11,29 @@ namespace CoreComfyUIAPI.Controllers
 	[Route("[controller]")]
 	public class Tiles : ControllerBase
 	{
-		private static readonly string[] Summaries = new[]
-		{
-			"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-		};
+		private readonly ILogger<RomanTitles> _logger;
 
-		private readonly ILogger<WeatherForecastController> _logger;
-
-		public Tiles(ILogger<WeatherForecastController> logger)
+		public Tiles(ILogger<RomanTitles> logger)
 		{
 			_logger = logger;
 		}
 
 		private void populateTitles(RomanTitles rt)
 		{
-			for (int i = 0; i < 10;i++)
+			ImageReader reader = new ImageReader();
+			List<string> imagefiles = reader.ReadLocalImages();
+
+			for(int i = 1; i < 10; i++)
 			{
 				Tile t = new Tile();
-				{
-					t.Id = 1;
-					t.Level = 1;
-					t.Parent = 0;
-					t.path = "/test/image" + i.ToString() + ".jpg";
-					t.pro = false;
-					rt.tiles.Add(t);
-				}
+				t.Id = i;
+				t.Level = 1;
+				t.Name = "template " + i.ToString();
+				t.Parent = 0;
+				t.path = string.Format("http://34.145.0.140:8188/view?filename=temp{0}.png&subfolder=&type=", i);
+				t.FileName = "temp" + i +".png";
+				t.pro = false;
+				rt.tiles.Add(t);
 			}
 			
 		}

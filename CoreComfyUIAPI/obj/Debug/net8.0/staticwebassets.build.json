@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "u4awEUVpQL8V0XrjZuZP4qXmiFWyArMZ++urfb/NNzI=",
+  "Hash": "TL1onvhzfO33cgHp+juLxomlD6hYzRDqgEdiMdyACyU=",
   "Source": "CoreComfyUIAPI",
   "BasePath": "_content/CoreComfyUIAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CoreComfyUIAPI\\wwwroot",
+      "Source": "CoreComfyUIAPI",
+      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
+      "BasePath": "_content/CoreComfyUIAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusv1.json",
+      "SourceId": "CoreComfyUIAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
+      "BasePath": "_content/CoreComfyUIAPI",
+      "RelativePath": "romanusv1.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\romanusv1.json"
+    },
+    {
+      "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtest.json",
+      "SourceId": "CoreComfyUIAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
+      "BasePath": "_content/CoreComfyUIAPI",
+      "RelativePath": "workflowtest.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\workflowtest.json"
+    }
+  ]
 }

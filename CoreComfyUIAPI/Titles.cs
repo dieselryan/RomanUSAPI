@@ -16,6 +16,8 @@ namespace CoreComfyUIAPI
 	{
 		public int Level { get; set; }
 		public int Parent { get; set; }
+		public string Name { get; set; }
+		public string FileName { get; set; }
 		public int Id { get; set; }
 		public string path { get; set; }
 		public bool pro { get; set; }

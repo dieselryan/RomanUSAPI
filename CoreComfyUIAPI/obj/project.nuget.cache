@@ -1,15 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "TUd2+W+qiz9t4CSLIRULEtR3EuDgExyzorj/lpniWyi5QmCRGcBzai3BGgBBsIaS6kHaqPMM7eN524jRSgUw6w==",
+  "dgSpecHash": "B2pjovEfqmJvTsHNFscYqrvR2dP1obnaanPx3iHuZXdk+W3jV338iJGR13F0H6RN8fQdouzHWZoi6dpBftsr0w==",
   "success": true,
-  "projectFilePath": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\CoreComfyUIAPI\\CoreComfyUIAPI.csproj",
+  "projectFilePath": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\CoreComfyUIAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rdiss\\.nuget\\packages\\google.apis\\1.68.0\\google.apis.1.68.0.nupkg.sha512",
+    "C:\\Users\\rdiss\\.nuget\\packages\\google.apis.auth\\1.68.0\\google.apis.auth.1.68.0.nupkg.sha512",
+    "C:\\Users\\rdiss\\.nuget\\packages\\google.apis.core\\1.68.0\\google.apis.core.1.68.0.nupkg.sha512",
+    "C:\\Users\\rdiss\\.nuget\\packages\\google.apis.drive.v3\\1.68.0.3373\\google.apis.drive.v3.1.68.0.3373.nupkg.sha512",
     "C:\\Users\\rdiss\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\rdiss\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rdiss\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\rdiss\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\rdiss\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\rdiss\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\rdiss\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\rdiss\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\rdiss\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\rdiss\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

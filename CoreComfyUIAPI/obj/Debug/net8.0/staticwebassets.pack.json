@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusv1.json",
+      "PackagePath": "staticwebassets\\romanusv1.json"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtest.json",
+      "PackagePath": "staticwebassets\\workflowtest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreComfyUIAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CoreComfyUIAPI.props",
+      "PackagePath": "build\\CoreComfyUIAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CoreComfyUIAPI.props",
+      "PackagePath": "buildMultiTargeting\\CoreComfyUIAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CoreComfyUIAPI.props",
+      "PackagePath": "buildTransitive\\CoreComfyUIAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
