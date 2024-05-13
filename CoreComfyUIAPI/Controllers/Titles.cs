@@ -30,7 +30,7 @@ namespace CoreComfyUIAPI.Controllers
 				t.Level = 1;
 				t.Name = "template " + i.ToString();
 				t.Parent = 0;
-				t.path = string.Format("http://34.145.0.140:8188/view?filename=temp{0}.png&subfolder=&type=", i);
+				t.path = string.Format("http://34.145.0.140:8188/view?filename=temp{0}.png&subfolder=&type=input", i);
 				t.FileName = "temp" + i +".png";
 				t.pro = false;
 				rt.tiles.Add(t);
