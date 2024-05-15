@@ -15,7 +15,7 @@ namespace CoreComfyUIAPI.Controllers
 		{
 			_httpClientFactory = httpClientFactory;
 		}
-
+		//not checking
 		[HttpGet("{imageName}")]
 		public async Task<IActionResult> GetImage(string imageName)
 		{
