@@ -1,592 +1,590 @@
-﻿{
-  "prompt": {
-    "4": {
-      "inputs": {
-        "ckpt_name": "sd_xl_base_1.0.safetensors"
+{
+  "prompt": 
+    {
+      "4": {
+        "inputs": {
+          "ckpt_name": "turbovisionxlSuperFastXLBasedOnNew_tvxlV431Bakedvae.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple",
+        "_meta": {
+          "title": "Load Checkpoint (IPA+ControlNet+ReActor_Method)"
+        }
       },
-      "class_type": "CheckpointLoaderSimple",
-      "_meta": {
-        "title": "Load Checkpoint"
-      }
-    },
-    "6": {
-      "inputs": {
-        "text": "a couple hugging, in the style of",
-        "clip": [
-          "4",
-          1
-        ]
+      "6": {
+        "inputs": {
+          "text": "a couple hugging, in the style of",
+          "clip": [
+            "4",
+            1
+          ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+          "title": "CLIP Text Encode (Positive Prompt)"
+        }
       },
-      "class_type": "CLIPTextEncode",
-      "_meta": {
-        "title": "CLIP Text Encode (Prompt)"
-      }
-    },
-    "7": {
-      "inputs": {
-        "text": "text, watermark, NSFW, naked, nudity, breasts, nipples",
-        "clip": [
-          "4",
-          1
-        ]
+      "7": {
+        "inputs": {
+          "text": "text, watermark, NSFW, naked, nudity, breasts, nipples",
+          "clip": [
+            "4",
+            1
+          ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+          "title": "CLIP Text Encode (Negative Prompt)"
+        }
       },
-      "class_type": "CLIPTextEncode",
-      "_meta": {
-        "title": "CLIP Text Encode (Prompt)"
-      }
-    },
-    "10": {
-      "inputs": {
-        "preset": "PLUS (high strength)",
-        "model": [
-          "4",
-          0
-        ]
+      "10": {
+        "inputs": {
+          "preset": "PLUS (high strength)",
+          "model": [
+            "4",
+            0
+          ]
+        },
+        "class_type": "IPAdapterUnifiedLoader",
+        "_meta": {
+          "title": "IPAdapter Unified Loader (1st Stage)"
+        }
       },
-      "class_type": "IPAdapterUnifiedLoader",
-      "_meta": {
-        "title": "IPAdapter Unified Loader"
-      }
-    },
-    "12": {
-      "inputs": {
-        "weight_style": 0.8,
-        "weight_composition": 1.5,
-        "expand_style": true,
-        "combine_embeds": "average",
-        "start_at": 0,
-        "end_at": 1,
-        "embeds_scaling": "V only",
-        "model": [
-          "10",
-          0
-        ],
-        "ipadapter": [
-          "10",
-          1
-        ],
-        "image_style": [
-          "14",
-          0
-        ],
-        "image_composition": [
-          "14",
-          0
-        ],
-        "clip_vision": [
-          "20",
-          0
-        ]
+      "12": {
+        "inputs": {
+          "weight_style": 0.8,
+          "weight_composition": 1.5,
+          "expand_style": true,
+          "combine_embeds": "average",
+          "start_at": 0,
+          "end_at": 1,
+          "embeds_scaling": "V only",
+          "model": [
+            "10",
+            0
+          ],
+          "ipadapter": [
+            "10",
+            1
+          ],
+          "image_style": [
+            "14",
+            0
+          ],
+          "image_composition": [
+            "14",
+            0
+          ],
+          "clip_vision": [
+            "20",
+            0
+          ]
+        },
+        "class_type": "IPAdapterStyleComposition",
+        "_meta": {
+          "title": "IPAdapter Style & Composition SDXL (1st)"
+        }
       },
-      "class_type": "IPAdapterStyleComposition",
-      "_meta": {
-        "title": "IPAdapter Style & Composition SDXL"
-      }
-    },
-    "14": {
-      "inputs": {
-        "image": "00025-3813112125.png",
-        "upload": "image"
+      "14": {
+        "inputs": {
+          "image": "00027-2500070944.png",
+          "upload": "image"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "Load Stylized Base Image (From Library)"
+        }
       },
-      "class_type": "LoadImage",
-      "_meta": {
-        "title": "Load Image"
-      }
-    },
-    "15": {
-      "inputs": {
-        "image": "image.png",
-        "upload": "image"
+      "15": {
+        "inputs": {
+          "image": "00043-1337171343.png",
+          "upload": "image"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "Load Image A   (Index 0)"
+        }
       },
-      "class_type": "LoadImage",
-      "_meta": {
-        "title": "Load Image"
-      }
-    },
-    "20": {
-      "inputs": {
-        "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+      "20": {
+        "inputs": {
+          "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+        },
+        "class_type": "CLIPVisionLoader",
+        "_meta": {
+          "title": "Load CLIP Vision (1st Stage)"
+        }
       },
-      "class_type": "CLIPVisionLoader",
-      "_meta": {
-        "title": "Load CLIP Vision"
-      }
-    },
-    "26": {
-      "inputs": {
-        "strength": 1.8,
-        "start_percent": 0,
-        "end_percent": 0.999,
-        "positive": [
-          "6",
-          0
-        ],
-        "negative": [
-          "7",
-          0
-        ],
-        "control_net": [
-          "27",
-          0
-        ],
-        "image": [
-          "14",
-          0
-        ]
+      "26": {
+        "inputs": {
+          "strength": 1.8,
+          "start_percent": 0,
+          "end_percent": 0.999,
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "7",
+            0
+          ],
+          "control_net": [
+            "27",
+            0
+          ],
+          "image": [
+            "14",
+            0
+          ]
+        },
+        "class_type": "ControlNetApplyAdvanced",
+        "_meta": {
+          "title": "Apply ControlNet (Advanced) (1st)"
+        }
       },
-      "class_type": "ControlNetApplyAdvanced",
-      "_meta": {
-        "title": "Apply ControlNet (Advanced)"
-      }
-    },
-    "27": {
-      "inputs": {
-        "control_net_name": "control-lora-canny-rank256.safetensors"
+      "27": {
+        "inputs": {
+          "control_net_name": "control-lora-canny-rank256.safetensors"
+        },
+        "class_type": "ControlNetLoader",
+        "_meta": {
+          "title": "Load ControlNet Model (1st)"
+        }
       },
-      "class_type": "ControlNetLoader",
-      "_meta": {
-        "title": "Load ControlNet Model"
-      }
-    },
-    "28": {
-      "inputs": {
-        "add_noise": "enable",
-        "noise_seed": 657939783711601,
-        "steps": 40,
-        "cfg": 11,
-        "sampler_name": "euler_ancestral",
-        "scheduler": "normal",
-        "start_at_step": 1,
-        "end_at_step": 10000,
-        "return_with_leftover_noise": "disable",
-        "model": [
-          "87",
-          0
-        ],
-        "positive": [
-          "26",
-          0
-        ],
-        "negative": [
-          "26",
-          1
-        ],
-        "latent_image": [
-          "29",
-          0
-        ]
+      "28": {
+        "inputs": {
+          "add_noise": "enable",
+          "noise_seed": 932465782111149,
+          "steps": 40,
+          "cfg": 11,
+          "sampler_name": "euler_ancestral",
+          "scheduler": "normal",
+          "start_at_step": 1,
+          "end_at_step": 10000,
+          "return_with_leftover_noise": "disable",
+          "model": [
+            "87",
+            0
+          ],
+          "positive": [
+            "26",
+            0
+          ],
+          "negative": [
+            "26",
+            1
+          ],
+          "latent_image": [
+            "29",
+            0
+          ]
+        },
+        "class_type": "KSamplerAdvanced",
+        "_meta": {
+          "title": "KSampler (Advanced) (1st Stage)"
+        }
       },
-      "class_type": "KSamplerAdvanced",
-      "_meta": {
-        "title": "KSampler (Advanced)"
-      }
-    },
-    "29": {
-      "inputs": {
-        "width": 864,
-        "height": 1080,
-        "batch_size": 1
+      "29": {
+        "inputs": {
+          "width": 864,
+          "height": 1080,
+          "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+          "title": "Empty Latent Image (1st Stage)"
+        }
       },
-      "class_type": "EmptyLatentImage",
-      "_meta": {
-        "title": "Empty Latent Image"
-      }
-    },
-    "30": {
-      "inputs": {
-        "samples": [
-          "28",
-          0
-        ],
-        "vae": [
-          "4",
-          2
-        ]
+      "30": {
+        "inputs": {
+          "samples": [
+            "28",
+            0
+          ],
+          "vae": [
+            "4",
+            2
+          ]
+        },
+        "class_type": "VAEDecode",
+        "_meta": {
+          "title": "VAE Decode (1st Stage)"
+        }
       },
-      "class_type": "VAEDecode",
-      "_meta": {
-        "title": "VAE Decode"
-      }
-    },
-    "32": {
-      "inputs": {
-        "enabled": true,
-        "swap_model": "inswapper_128.onnx",
-        "facedetection": "retinaface_resnet50",
-        "face_restore_model": "GFPGANv1.4.pth",
-        "face_restore_visibility": 1,
-        "codeformer_weight": 0.5,
-        "detect_gender_input": "no",
-        "detect_gender_source": "no",
-        "input_faces_index": "0",
-        "source_faces_index": "0",
-        "console_log_level": 1,
-        "input_image": [
-          "30",
-          0
-        ],
-        "source_image": [
-          "15",
-          0
-        ]
+      "32": {
+        "inputs": {
+          "enabled": true,
+          "swap_model": "inswapper_128.onnx",
+          "facedetection": "retinaface_resnet50",
+          "face_restore_model": "GFPGANv1.4.pth",
+          "face_restore_visibility": 1,
+          "codeformer_weight": 0.5,
+          "detect_gender_input": "no",
+          "detect_gender_source": "no",
+          "input_faces_index": "0",
+          "source_faces_index": "0",
+          "console_log_level": 1,
+          "input_image": [
+            "30",
+            0
+          ],
+          "source_image": [
+            "15",
+            0
+          ]
+        },
+        "class_type": "ReActorFaceSwap",
+        "_meta": {
+          "title": "ReActor Face Swap A (Index 0) (IPA METHOD)"
+        }
       },
-      "class_type": "ReActorFaceSwap",
-      "_meta": {
-        "title": "ReActor 🌌 Fast Face Swap"
-      }
-    },
-    "34": {
-      "inputs": {
-        "filename_prefix": "script",
-        "images": [
-          "92",
-          0
-        ]
+      "53": {
+        "inputs": {
+          "enabled": true,
+          "swap_model": "inswapper_128.onnx",
+          "facedetection": "retinaface_resnet50",
+          "face_restore_model": "GFPGANv1.4.pth",
+          "face_restore_visibility": 1,
+          "codeformer_weight": 0.55,
+          "detect_gender_input": "no",
+          "detect_gender_source": "no",
+          "input_faces_index": "0",
+          "source_faces_index": "0",
+          "console_log_level": 1,
+          "input_image": [
+            "86",
+            0
+          ],
+          "source_image": [
+            "15",
+            0
+          ]
+        },
+        "class_type": "ReActorFaceSwap",
+        "_meta": {
+          "title": "ReActor Only Method Face Swap (1st Index 0) "
+        }
       },
-      "class_type": "SaveImage",
-      "_meta": {
-        "title": "Save Image"
-      }
-    },
-    "53": {
-      "inputs": {
-        "enabled": true,
-        "swap_model": "inswapper_128.onnx",
-        "facedetection": "retinaface_resnet50",
-        "face_restore_model": "GFPGANv1.4.pth",
-        "face_restore_visibility": 1,
-        "codeformer_weight": 0.55,
-        "detect_gender_input": "no",
-        "detect_gender_source": "no",
-        "input_faces_index": "0",
-        "source_faces_index": "0",
-        "console_log_level": 1,
-        "input_image": [
-          "86",
-          0
-        ],
-        "source_image": [
-          "15",
-          0
-        ]
+      "63": {
+        "inputs": {
+          "image": "profile1.png",
+          "upload": "image"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "Load Image B (Index 1)"
+        }
       },
-      "class_type": "ReActorFaceSwap",
-      "_meta": {
-        "title": "ReActor 🌌 Fast Face Swap"
-      }
-    },
-    "54": {
-      "inputs": {
-        "filename_prefix": "REACTOR_FS_ONE_FACE__ONLY\\R_FS_ONLY_0001",
-        "images": [
-          "53",
-          0
-        ]
+      "64": {
+        "inputs": {
+          "enabled": true,
+          "swap_model": "inswapper_128.onnx",
+          "facedetection": "retinaface_resnet50",
+          "face_restore_model": "GFPGANv1.4.pth",
+          "face_restore_visibility": 1,
+          "codeformer_weight": 0.6,
+          "detect_gender_input": "no",
+          "detect_gender_source": "no",
+          "input_faces_index": "0",
+          "source_faces_index": "1",
+          "console_log_level": 1,
+          "input_image": [
+            "53",
+            0
+          ],
+          "source_image": [
+            "63",
+            0
+          ]
+        },
+        "class_type": "ReActorFaceSwap",
+        "_meta": {
+          "title": "ReActor Only Method Face Swap (2nd Index 1)"
+        }
       },
-      "class_type": "SaveImage",
-      "_meta": {
-        "title": "Save Image"
-      }
-    },
-    "63": {
-      "inputs": {
-        "image": "nfs heat1.jpg",
-        "upload": "image"
+      "68": {
+        "inputs": {
+          "enabled": true,
+          "swap_model": "inswapper_128.onnx",
+          "facedetection": "retinaface_resnet50",
+          "face_restore_model": "GFPGANv1.4.pth",
+          "face_restore_visibility": 1,
+          "codeformer_weight": 0.5,
+          "detect_gender_input": "no",
+          "detect_gender_source": "no",
+          "input_faces_index": "0",
+          "source_faces_index": "1",
+          "console_log_level": 1,
+          "input_image": [
+            "100",
+            0
+          ],
+          "source_image": [
+            "63",
+            0
+          ]
+        },
+        "class_type": "ReActorFaceSwap",
+        "_meta": {
+          "title": "ReActor Face Swap B (Index 1) (IPA METHOD)"
+        }
       },
-      "class_type": "LoadImage",
-      "_meta": {
-        "title": "Load Image"
-      }
-    },
-    "64": {
-      "inputs": {
-        "enabled": true,
-        "swap_model": "inswapper_128.onnx",
-        "facedetection": "retinaface_resnet50",
-        "face_restore_model": "GFPGANv1.4.pth",
-        "face_restore_visibility": 1,
-        "codeformer_weight": 0.6,
-        "detect_gender_input": "no",
-        "detect_gender_source": "no",
-        "input_faces_index": "0",
-        "source_faces_index": "1",
-        "console_log_level": 1,
-        "input_image": [
-          "53",
-          0
-        ],
-        "source_image": [
-          "63",
-          0
-        ]
+      "69": {
+        "inputs": {
+          "filename_prefix": "coupleswf",
+          "images": [
+            "68",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "Final Output Both Faces Save Image (IPA METHOD)"
+        }
       },
-      "class_type": "ReActorFaceSwap",
-      "_meta": {
-        "title": "ReActor 🌌 Fast Face Swap"
-      }
-    },
-    "65": {
-      "inputs": {
-        "filename_prefix": "REACTOR_FS_ONLY_BOTH_FACES\\R_FS_ONLY_0001",
-        "images": [
-          "64",
-          0
-        ]
+      "86": {
+        "inputs": {
+          "height": 1080,
+          "width": 864,
+          "interpolation_mode": "bicubic",
+          "image": [
+            "14",
+            0
+          ]
+        },
+        "class_type": "JWImageResize",
+        "_meta": {
+          "title": "Image Resize (ReActor_Only_Method)"
+        }
       },
-      "class_type": "SaveImage",
-      "_meta": {
-        "title": "Save Image"
-      }
-    },
-    "66": {
-      "inputs": {
-        "images": [
-          "30",
-          0
-        ]
+      "87": {
+        "inputs": {
+          "multiplier": 0.4,
+          "model": [
+            "12",
+            0
+          ]
+        },
+        "class_type": "RescaleCFG",
+        "_meta": {
+          "title": "RescaleCFG (1st Pre-KSampler_1)"
+        }
       },
-      "class_type": "PreviewImage",
-      "_meta": {
-        "title": "Preview Image"
-      }
-    },
-    "68": {
-      "inputs": {
-        "enabled": true,
-        "swap_model": "inswapper_128.onnx",
-        "facedetection": "retinaface_resnet50",
-        "face_restore_model": "GFPGANv1.4.pth",
-        "face_restore_visibility": 1,
-        "codeformer_weight": 0.5,
-        "detect_gender_input": "no",
-        "detect_gender_source": "no",
-        "input_faces_index": "0",
-        "source_faces_index": "1",
-        "console_log_level": 1,
-        "input_image": [
-          "100",
-          0
-        ],
-        "source_image": [
-          "63",
-          0
-        ]
+      "91": {
+        "inputs": {
+          "model_name": "bbox/Eyes.pt"
+        },
+        "class_type": "UltralyticsDetectorProvider",
+        "_meta": {
+          "title": "UltralyticsDetectorProvider (Face A  Index 0)"
+        }
       },
-      "class_type": "ReActorFaceSwap",
-      "_meta": {
-        "title": "ReActor 🌌 Fast Face Swap"
-      }
-    },
-    "69": {
-      "inputs": {
-        "filename_prefix": "scripts",
-        "images": [
-          "68",
-          0
-        ]
+      "92": {
+        "inputs": {
+          "guide_size": 384,
+          "guide_size_for": true,
+          "max_size": 1024,
+          "seed": 0,
+          "steps": 30,
+          "cfg": 6.5,
+          "sampler_name": "euler",
+          "scheduler": "ddim_uniform",
+          "denoise": 1,
+          "feather": 5,
+          "noise_mask": true,
+          "force_inpaint": true,
+          "bbox_threshold": 0.5,
+          "bbox_dilation": 10,
+          "bbox_crop_factor": 3,
+          "sam_detection_hint": "center-1",
+          "sam_dilation": 0,
+          "sam_threshold": 0.93,
+          "sam_bbox_expansion": 0,
+          "sam_mask_hint_threshold": 0.7,
+          "sam_mask_hint_use_negative": "False",
+          "drop_size": 10,
+          "wildcard": "",
+          "cycle": 1,
+          "inpaint_model": false,
+          "noise_mask_feather": 20,
+          "image": [
+            "32",
+            0
+          ],
+          "model": [
+            "4",
+            0
+          ],
+          "clip": [
+            "4",
+            1
+          ],
+          "vae": [
+            "4",
+            2
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "7",
+            0
+          ],
+          "bbox_detector": [
+            "91",
+            0
+          ],
+          "sam_model_opt": [
+            "93",
+            0
+          ]
+        },
+        "class_type": "FaceDetailer",
+        "_meta": {
+          "title": "FaceDetailer  (Face A Index 0)"
+        }
       },
-      "class_type": "SaveImage",
-      "_meta": {
-        "title": "Save Image"
-      }
-    },
-    "86": {
-      "inputs": {
-        "height": 1080,
-        "width": 864,
-        "interpolation_mode": "bicubic",
-        "image": [
-          "14",
-          0
-        ]
+      "93": {
+        "inputs": {
+          "model_name": "sam_vit_b_01ec64.pth",
+          "device_mode": "Prefer GPU"
+        },
+        "class_type": "SAMLoader",
+        "_meta": {
+          "title": "SAMLoader (Impact) (Face A Index 0)"
+        }
       },
-      "class_type": "JWImageResize",
-      "_meta": {
-        "title": "Image Resize"
-      }
-    },
-    "87": {
-      "inputs": {
-        "multiplier": 0.4,
-        "model": [
-          "12",
-          0
-        ]
+      "100": {
+        "inputs": {
+          "guide_size": 384,
+          "guide_size_for": true,
+          "max_size": 1024,
+          "seed": 0,
+          "steps": 30,
+          "cfg": 1.5,
+          "sampler_name": "euler",
+          "scheduler": "ddim_uniform",
+          "denoise": 0.01,
+          "feather": 5,
+          "noise_mask": true,
+          "force_inpaint": true,
+          "bbox_threshold": 0.5,
+          "bbox_dilation": 10,
+          "bbox_crop_factor": 3,
+          "sam_detection_hint": "center-1",
+          "sam_dilation": 0,
+          "sam_threshold": 0.93,
+          "sam_bbox_expansion": 0,
+          "sam_mask_hint_threshold": 0.7,
+          "sam_mask_hint_use_negative": "False",
+          "drop_size": 10,
+          "wildcard": "",
+          "cycle": 1,
+          "inpaint_model": false,
+          "noise_mask_feather": 20,
+          "image": [
+            "92",
+            0
+          ],
+          "model": [
+            "4",
+            0
+          ],
+          "clip": [
+            "4",
+            1
+          ],
+          "vae": [
+            "4",
+            2
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "7",
+            0
+          ],
+          "bbox_detector": [
+            "102",
+            0
+          ],
+          "sam_model_opt": [
+            "103",
+            0
+          ]
+        },
+        "class_type": "FaceDetailer",
+        "_meta": {
+          "title": "FaceDetailer (Face B Index 1)"
+        }
       },
-      "class_type": "RescaleCFG",
-      "_meta": {
-        "title": "RescaleCFG"
-      }
-    },
-    "91": {
-      "inputs": {
-        "model_name": "bbox/Eyes.pt"
+      "102": {
+        "inputs": {
+          "model_name": "bbox/Eyes.pt"
+        },
+        "class_type": "UltralyticsDetectorProvider",
+        "_meta": {
+          "title": "UltralyticsDetectorProvider (Face B  Index 1)"
+        }
       },
-      "class_type": "UltralyticsDetectorProvider",
-      "_meta": {
-        "title": "UltralyticsDetectorProvider"
-      }
-    },
-    "92": {
-      "inputs": {
-        "guide_size": 384,
-        "guide_size_for": true,
-        "max_size": 1024,
-        "seed": 373989111869062,
-        "steps": 30,
-        "cfg": 6.5,
-        "sampler_name": "euler",
-        "scheduler": "ddim_uniform",
-        "denoise": 1,
-        "feather": 5,
-        "noise_mask": true,
-        "force_inpaint": true,
-        "bbox_threshold": 0.5,
-        "bbox_dilation": 10,
-        "bbox_crop_factor": 3,
-        "sam_detection_hint": "center-1",
-        "sam_dilation": 0,
-        "sam_threshold": 0.93,
-        "sam_bbox_expansion": 0,
-        "sam_mask_hint_threshold": 0.7000000000000001,
-        "sam_mask_hint_use_negative": "False",
-        "drop_size": 10,
-        "wildcard": "",
-        "cycle": 1,
-        "inpaint_model": false,
-        "noise_mask_feather": 20,
-        "image": [
-          "32",
-          0
-        ],
-        "model": [
-          "4",
-          0
-        ],
-        "clip": [
-          "4",
-          1
-        ],
-        "vae": [
-          "4",
-          2
-        ],
-        "positive": [
-          "6",
-          0
-        ],
-        "negative": [
-          "7",
-          0
-        ],
-        "bbox_detector": [
-          "91",
-          0
-        ],
-        "sam_model_opt": [
-          "93",
-          0
-        ]
+      "103": {
+        "inputs": {
+          "model_name": "sam_vit_b_01ec64.pth",
+          "device_mode": "Prefer GPU"
+        },
+        "class_type": "SAMLoader",
+        "_meta": {
+          "title": "SAMLoader (Impact) (Face B Index 1)"
+        }
       },
-      "class_type": "FaceDetailer",
-      "_meta": {
-        "title": "FaceDetailer"
-      }
-    },
-    "93": {
-      "inputs": {
-        "model_name": "sam_vit_b_01ec64.pth",
-        "device_mode": "Prefer GPU"
+      "109": {
+        "inputs": {
+          "images": [
+            "53",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "Preview Image"
+        }
       },
-      "class_type": "SAMLoader",
-      "_meta": {
-        "title": "SAMLoader (Impact)"
-      }
-    },
-    "100": {
-      "inputs": {
-        "guide_size": 384,
-        "guide_size_for": true,
-        "max_size": 1024,
-        "seed": 172278775930330,
-        "steps": 30,
-        "cfg": 1.5,
-        "sampler_name": "euler",
-        "scheduler": "ddim_uniform",
-        "denoise": 0.01,
-        "feather": 5,
-        "noise_mask": true,
-        "force_inpaint": true,
-        "bbox_threshold": 0.5,
-        "bbox_dilation": 10,
-        "bbox_crop_factor": 3,
-        "sam_detection_hint": "center-1",
-        "sam_dilation": 0,
-        "sam_threshold": 0.93,
-        "sam_bbox_expansion": 0,
-        "sam_mask_hint_threshold": 0.7000000000000001,
-        "sam_mask_hint_use_negative": "False",
-        "drop_size": 10,
-        "wildcard": "",
-        "cycle": 1,
-        "inpaint_model": false,
-        "noise_mask_feather": 20,
-        "image": [
-          "92",
-          0
-        ],
-        "model": [
-          "4",
-          0
-        ],
-        "clip": [
-          "4",
-          1
-        ],
-        "vae": [
-          "4",
-          2
-        ],
-        "positive": [
-          "6",
-          0
-        ],
-        "negative": [
-          "7",
-          0
-        ],
-        "bbox_detector": [
-          "102",
-          0
-        ],
-        "sam_model_opt": [
-          "103",
-          0
-        ]
+      "110": {
+        "inputs": {
+          "images": [
+            "64",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "Preview Image"
+        }
       },
-      "class_type": "FaceDetailer",
-      "_meta": {
-        "title": "FaceDetailer"
-      }
-    },
-    "102": {
-      "inputs": {
-        "model_name": "bbox/Eyes.pt"
+      "111": {
+        "inputs": {
+          "images": [
+            "92",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "Preview Image"
+        }
       },
-      "class_type": "UltralyticsDetectorProvider",
-      "_meta": {
-        "title": "UltralyticsDetectorProvider"
-      }
-    },
-    "103": {
-      "inputs": {
-        "model_name": "sam_vit_b_01ec64.pth",
-        "device_mode": "Prefer GPU"
-      },
-      "class_type": "SAMLoader",
-      "_meta": {
-        "title": "SAMLoader (Impact)"
+      "112": {
+        "inputs": {
+          "images": [
+            "30",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "Preview Image"
+        }
       }
     }
   }
-}

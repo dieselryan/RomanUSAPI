@@ -12,9 +12,11 @@ using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace CoreComfyUIAPI.Controllers
 {
+
+
+
 	[ApiController]
 	[Route("[controller]")]
-
 	public class StatusController : ControllerBase
 	{
 		[HttpGet]
@@ -24,8 +26,43 @@ namespace CoreComfyUIAPI.Controllers
 			{
 				using (HttpClient client = new HttpClient())
 				{
-				
+
+					//Check the queue
+					var response = await client.GetAsync($"http://34.145.0.140:8188/queue");
+					if (response.IsSuccessStatusCode)
+					{
+						string responseContent = await response.Content.ReadAsStringAsync();
+							JObject jsonObject = JObject.Parse(responseContent);
+							JArray nodesArray = (JArray)jsonObject["queue_running"];
+							if (nodesArray.Count <1 )
+							{
+								return await GetHistoryCall(PromptId);
+
+							}
+							else
+							{
+								return Ok("still processing");
+							}
+
+					
+					}
+					else { return BadRequest("Error in queue response1"); }
+
 					// Send POST request
+
+				}
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(ex);
+			}
+		}
+		private async Task<IActionResult> GetHistoryCall(string PromptId)
+		{
+			try
+			{
+				using (HttpClient client = new HttpClient())
+				{
 					var response = await client.GetAsync($"http://34.145.0.140:8188/history/" + PromptId);
 					// Check if the request was successful
 					if (response.IsSuccessStatusCode)
@@ -38,15 +75,15 @@ namespace CoreComfyUIAPI.Controllers
 							if ((string)jsonObject[PromptId]["status"]["status_str"] == "success")
 							{
 
-								string filename = (string)jsonObject[PromptId]["outputs"]["54"]["images"][0]["filename"];
+								string filename = (string)jsonObject[PromptId]["outputs"]["69"]["images"][0]["filename"];
 								int lastDotIndex = filename.LastIndexOf('.');
-								return Ok(filename = filename.Substring(0, lastDotIndex)) ;
+								return Ok(filename = filename.Substring(0, lastDotIndex));
 							}
 							else
 							{
 								return Ok("processing");
 							}
-						
+
 						}
 						return Ok(responseContent);//processing
 					}
@@ -60,9 +97,6 @@ namespace CoreComfyUIAPI.Controllers
 			{
 				return BadRequest(ex);
 			}
-
-
-
 		}
 	}
 }

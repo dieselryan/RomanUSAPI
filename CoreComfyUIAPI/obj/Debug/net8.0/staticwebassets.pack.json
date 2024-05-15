@@ -1,12 +1,16 @@
 {
   "Files": [
     {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusbck.json",
+      "PackagePath": "staticwebassets\\romanusbck.json"
+    },
+    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusv1.json",
       "PackagePath": "staticwebassets\\romanusv1.json"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtest.json",
-      "PackagePath": "staticwebassets\\workflowtest.json"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtes.json",
+      "PackagePath": "staticwebassets\\workflowtes.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreComfyUIAPI.Microsoft.AspNetCore.StaticWebAssets.props",
