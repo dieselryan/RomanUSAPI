@@ -39,7 +39,7 @@ namespace CoreComfyUIAPI.Controllers
 			{
 				// Extract the substring up to the first underscore
 				string artist = templateImage.Substring(0, underscoreIndex);
-				jsonObject["prompt"]["6"]["inputs"]["text"] = "a couple hugging, in the style of " + artist;
+				jsonObject["prompt"]["6"]["inputs"]["text"] = "a couple hugging, in the style of " + artist.Replace("+"," ");
 			}
 			jsonObject["prompt"]["15"]["inputs"]["image"] = primaryImage;
 			jsonObject["prompt"]["63"]["inputs"]["image"] = secondaryImage;
