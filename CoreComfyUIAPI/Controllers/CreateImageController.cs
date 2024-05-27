@@ -60,7 +60,7 @@ namespace CoreComfyUIAPI.Controllers
 				if (secondaryImage == null) { return BadRequest("No secondary image"); }
 				if (templateImage == null) { return BadRequest("No template image"); }
 
-				var postData = System.IO.File.ReadAllText(Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot/Romanticize_Me_Draft_04_workflow_api.json"));
+				var postData = System.IO.File.ReadAllText(Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot/Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json"));
 
 				using (HttpClient client = new HttpClient())
 				{
