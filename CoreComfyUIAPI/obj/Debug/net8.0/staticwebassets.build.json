@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T9P5LuoiHy3SeuL31523fQMx5Ty/twFZk/SbsX8i58c=",
+  "Hash": "YrSpuTydwIbHmdaPEw2y0Q4kx2fUTcC/L4yO8VRaVHM=",
   "Source": "CoreComfyUIAPI",
   "BasePath": "_content/CoreComfyUIAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romanticize_Me_Draft_04_workflow_api.json",
+      "SourceId": "CoreComfyUIAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
+      "BasePath": "_content/CoreComfyUIAPI",
+      "RelativePath": "Romanticize_Me_Draft_04_workflow_api.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Romanticize_Me_Draft_04_workflow_api.json"
+    },
     {
       "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusbck.json",
       "SourceId": "CoreComfyUIAPI",

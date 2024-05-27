@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romanticize_Me_Draft_04_workflow_api.json",
+      "PackagePath": "staticwebassets\\Romanticize_Me_Draft_04_workflow_api.json"
+    },
+    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusbck.json",
       "PackagePath": "staticwebassets\\romanusbck.json"
     },

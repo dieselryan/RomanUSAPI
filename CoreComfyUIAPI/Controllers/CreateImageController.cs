@@ -14,6 +14,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.AspNetCore.Hosting;
+using System.Linq;
 
 
 namespace CoreComfyUIAPI.Controllers
@@ -33,6 +34,13 @@ namespace CoreComfyUIAPI.Controllers
 		private string InjectValues(string Json, string primaryImage, string secondaryImage, string templateImage)
 		{
 			JObject jsonObject = JObject.Parse(Json);
+			int underscoreIndex = templateImage.IndexOf('_');
+			if (underscoreIndex != -1)
+			{
+				// Extract the substring up to the first underscore
+				string artist = templateImage.Substring(0, underscoreIndex);
+				jsonObject["prompt"]["6"]["inputs"]["text"] = "a couple hugging, in the style of " + artist;
+			}
 			jsonObject["prompt"]["15"]["inputs"]["image"] = primaryImage;
 			jsonObject["prompt"]["63"]["inputs"]["image"] = secondaryImage;
 	     	jsonObject["prompt"]["14"]["inputs"]["image"] = templateImage;
@@ -52,7 +60,7 @@ namespace CoreComfyUIAPI.Controllers
 				if (secondaryImage == null) { return BadRequest("No secondary image"); }
 				if (templateImage == null) { return BadRequest("No template image"); }
 
-				var postData = System.IO.File.ReadAllText(Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot/romanusv1.json"));
+				var postData = System.IO.File.ReadAllText(Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot/Romanticize_Me_Draft_04_workflow_api.json"));
 
 				using (HttpClient client = new HttpClient())
 				{
