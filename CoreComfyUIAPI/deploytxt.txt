@@ -1,6 +1,6 @@
 cd API/RomanUSAPI/CoreComfyUIAPI/
 git pull
-cd API/RomanUSAPI/CoreComfyUIAPI
+cd API/RomanUSAPI/CoreComfyUIAPIcd 
 gcloud config set project reliable-aloe-422021-u5
 gcloud app deploy --version v2
 added line
