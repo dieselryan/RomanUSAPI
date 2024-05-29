@@ -72,4 +72,3 @@ D:\dev\romanticize me\CoreComfyUIAPI\RomanUSAPI\CoreComfyUIAPI\obj\Debug\net8.0\
 D:\dev\romanticize me\CoreComfyUIAPI\RomanUSAPI\CoreComfyUIAPI\obj\Debug\net8.0\CoreComfyUIAPI.pdb
 D:\dev\romanticize me\CoreComfyUIAPI\RomanUSAPI\CoreComfyUIAPI\obj\Debug\net8.0\CoreComfyUIAPI.genruntimeconfig.cache
 D:\dev\romanticize me\CoreComfyUIAPI\RomanUSAPI\CoreComfyUIAPI\obj\Debug\net8.0\ref\CoreComfyUIAPI.dll
-D:\dev\romanticize me\CoreComfyUIAPI\RomanUSAPI\CoreComfyUIAPI\obj\Debug\net8.0\CoreComfyUIAPI.csproj.ResolveComReference.cache
