@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json"
     },
     {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\age_deploy.prototxt",
+      "PackagePath": "staticwebassets\\models\\age_deploy.prototxt"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\age_net.caffemodel",
+      "PackagePath": "staticwebassets\\models\\age_net.caffemodel"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\gender_deploy.prototxt",
+      "PackagePath": "staticwebassets\\models\\gender_deploy.prototxt"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\gender_net.caffemodel",
+      "PackagePath": "staticwebassets\\models\\gender_net.caffemodel"
+    },
+    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusbck.json",
       "PackagePath": "staticwebassets\\romanusbck.json"
     },

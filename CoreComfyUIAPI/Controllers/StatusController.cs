@@ -12,9 +12,6 @@ using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace CoreComfyUIAPI.Controllers
 {
-
-
-
 	[ApiController]
 	[Route("[controller]")]
 	public class StatusController : ControllerBase
@@ -43,8 +40,6 @@ namespace CoreComfyUIAPI.Controllers
 							{
 								return Ok("still processing");
 							}
-
-					
 					}
 					else { return BadRequest("Error in queue response1"); }
 

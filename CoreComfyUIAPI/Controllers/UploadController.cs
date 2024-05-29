@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using Microsoft.AspNetCore.Http;
+using Emgu.CV.Dnn;
+using Emgu.CV.Structure;
+using Emgu.CV;
+using System.Drawing;
 
 namespace CoreComfyUIAPI.Controllers
 {
@@ -20,6 +24,7 @@ namespace CoreComfyUIAPI.Controllers
 		{
 			//_imageUploader = imageUploader;
 		}
+	
 		[HttpPost("UploadImage")]
 		public async Task<IActionResult> UploadImage([FromForm] IFormFile image, [FromForm] string SessionID, [FromForm] Boolean isFemale, [FromForm] bool isPrimaryProfile)
 		{
@@ -30,11 +35,11 @@ namespace CoreComfyUIAPI.Controllers
 				SessionID = SessionID
 			};
 			try {
-			
 				ImageUploader imageUploader = new ImageUploader(); 
-				string imagePath = await imageUploader.UploadImageAsync(image, profilePic);
 
+				string imagePath = await imageUploader.UploadImageAsync(image, profilePic);
 				// Return the file path as a response
+		
 				return Ok(imagePath);
 			}
 			catch (Exception ex)
