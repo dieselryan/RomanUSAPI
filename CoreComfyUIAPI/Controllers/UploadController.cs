@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using Microsoft.AspNetCore.Http;
-using Emgu.CV.Dnn;
-using Emgu.CV.Structure;
-using Emgu.CV;
-using System.Drawing;
+//using Emgu.CV.Dnn;
+//using Emgu.CV.Structure;
+//using Emgu.CV;
+//using System.Drawing;
 
 namespace CoreComfyUIAPI.Controllers
 {

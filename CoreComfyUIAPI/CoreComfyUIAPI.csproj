@@ -22,15 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
-    <PackageReference Include="Emgu.CV.runtime.mini.ubuntu-x64" Version="4.9.0.5494" />
-    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5494" />
     <PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3373" />
-    <PackageReference Include="MyCaffe" Version="1.12.2.41" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="OpenCVSharp" Version="2.4.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-    <PackageReference Include="System.Drawing.Common" Version="8.0.6" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,4 @@
-﻿using Emgu.CV.Dnn;
-using Emgu.CV.Structure;
-using Emgu.CV;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System;
 using System.Drawing;
 using System.IO;
@@ -15,7 +12,7 @@ namespace CoreComfyUIAPI
 
 	public class ImageUploader
 	{
-		public static async Task<Mat> ConvertIFormFileToMat(IFormFile file)
+	/*	public static async Task<Mat> ConvertIFormFileToMat(IFormFile file)
 		{
 			if (file.Length > 0)
 			{
@@ -32,8 +29,8 @@ namespace CoreComfyUIAPI
 				}
 			}
 			return null; // or throw an exception if you expect a file to always be provided
-		}
-		private async Task<string> getGender(IFormFile file)
+		}*/
+	/*	private async Task<string> getGender(IFormFile file)
 		{
 			try
 			{
@@ -79,9 +76,9 @@ namespace CoreComfyUIAPI
 			// Cleanup
 		
 	
-		}
+		}*/
 
-		public HttpContent ConvertIFormFileToHttpContent(IFormFile file, string filename)
+	public HttpContent ConvertIFormFileToHttpContent(IFormFile file, string filename)
 		{
 			// Check if the file is null
 			if (file == null || file.Length == 0)
@@ -99,7 +96,7 @@ namespace CoreComfyUIAPI
 
 			return fileContent;
 		}
-		public async Task<string> CreateProfileName(ProfilePic profilePic)
+	public async Task<string> CreateProfileName(ProfilePic profilePic)
 		{
 			string result = "profile_";
 			if (profilePic.IsPrimaryProfile)
