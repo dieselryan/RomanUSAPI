@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CoreComfyUIAPI.Controllers
 {
@@ -43,7 +44,8 @@ namespace CoreComfyUIAPI.Controllers
 				t.Level = 1;
 				t.Name = Tempfiles[i];
 				t.Parent = 0;
-				t.path = string.Format("http://34.145.0.140:8188/view?filename={0}&subfolder=&type=input", Uri.EscapeDataString(Tempfiles[i]));
+
+				t.path = string.Format("https://reliable-aloe-422021-u5.uw.r.appspot.com/image?template={0}", (Tempfiles[i]));
 				t.FileName = Tempfiles[i];
 				if (i > 3)
 				{
