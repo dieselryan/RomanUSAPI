@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json"
     },
     {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\fasterworkflow.json",
+      "PackagePath": "staticwebassets\\fasterworkflow.json"
+    },
+    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\age_deploy.prototxt",
       "PackagePath": "staticwebassets\\models\\age_deploy.prototxt"
     },

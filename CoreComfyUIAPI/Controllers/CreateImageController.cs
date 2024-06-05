@@ -61,7 +61,7 @@ namespace CoreComfyUIAPI.Controllers
 				if (templateImage == null) { return BadRequest("No template image"); }
 				templateImage = templateImage.Replace(" ", "+");
 
-				var postData = System.IO.File.ReadAllText(Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot/Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json"));
+				var postData = System.IO.File.ReadAllText(Path.Combine(_hostingEnvironment.ContentRootPath, "wwwroot/fasterworkflow.json"));
 
 				using (HttpClient client = new HttpClient())
 				{

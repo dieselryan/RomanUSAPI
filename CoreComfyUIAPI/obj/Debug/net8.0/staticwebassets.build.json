@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/YtGaHrrOfghuFl08sjB+h8kxqq1w4yALENJDtoN/eM=",
+  "Hash": "HEYdPMAhNR2MEr6kd9hb7iccvYWb1p/v7QLXu0ok65c=",
   "Source": "CoreComfyUIAPI",
   "BasePath": "_content/CoreComfyUIAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\fasterworkflow.json",
+      "SourceId": "CoreComfyUIAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
+      "BasePath": "_content/CoreComfyUIAPI",
+      "RelativePath": "fasterworkflow.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fasterworkflow.json"
+    },
     {
       "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\age_deploy.prototxt",
       "SourceId": "CoreComfyUIAPI",

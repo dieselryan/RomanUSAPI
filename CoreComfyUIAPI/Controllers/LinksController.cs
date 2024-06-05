@@ -25,9 +25,10 @@ namespace CoreComfyUIAPI.Controllers
 			{
 				var urls = new List<UrlEntry>
 				{
-					new UrlEntry { Name = "Privacy Policy", Url = "https://www.diffuseai.io/romanus/privacypolicy" },
-					new UrlEntry { Name = "Terms of Use", Url = "https://www.diffuseai.io/romanus/termsofuse" },
-					new UrlEntry { Name = "Open Source Licences", Url = "https://www.diffuseai.io/romanus/opensourcelicence" }
+					new UrlEntry { Name = "Feedback", Url = "https://www.diffuseai.io/rom-feedback" },
+					new UrlEntry { Name = "Privacy Policy", Url = "https://www.diffuseai.io/rom-privacy-policy" },
+					new UrlEntry { Name = "Terms of Use", Url = "https://www.diffuseai.io/roman-terms-of-use" },
+					new UrlEntry { Name = "Open Source Licences", Url = "https://www.diffuseai.io/rom-open-source-licences" }
 				}	;
 
 				// Convert the list to JSON format
