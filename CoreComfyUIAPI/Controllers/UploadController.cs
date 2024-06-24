@@ -25,7 +25,7 @@ namespace CoreComfyUIAPI.Controllers
 			//_imageUploader = imageUploader;
 		}
 	
-		[HttpPost("Upload")]
+		[HttpPost("UploadImage")]
 		public async Task<IActionResult> UploadImage([FromForm] IFormFile image, [FromForm] string SessionID, [FromForm] Boolean isFemale, [FromForm] bool isPrimaryProfile)
 		{
 			ProfilePic profilePic = new ProfilePic
