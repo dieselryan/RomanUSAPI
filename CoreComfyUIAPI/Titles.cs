@@ -3,6 +3,14 @@ using System.Collections.Generic;
 
 namespace CoreComfyUIAPI
 {
+
+	public enum GenderType
+	{
+		malemale,
+		femalefemale,
+		malefemale
+	}
+
 	public class RomanTitles
 	{
 		public List<Tile> tiles { get; set; }
@@ -21,6 +29,5 @@ namespace CoreComfyUIAPI
 		public int Id { get; set; }
 		public string path { get; set; }
 		public bool pro { get; set; }
-
 	}
 }

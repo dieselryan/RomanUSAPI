@@ -2,10 +2,12 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
+using Newtonsoft.Json;
 
 namespace CoreComfyUIAPI.Controllers
 {
@@ -56,14 +58,25 @@ namespace CoreComfyUIAPI.Controllers
 				}
 				rt.tiles.Add(t);
 			}
-			
+
 		}
+		//[HttpGet]
+		//public RomanTitles Get()
+		//{
+		//	RomanTitles romanTitles= new RomanTitles();
+		//	populateTitles(romanTitles);
+		//	return romanTitles;
+		//}
 		[HttpGet]
-		public RomanTitles Get()
+		public string Get(GenderType genderType)
 		{
-			RomanTitles romanTitles= new RomanTitles();
-			populateTitles(romanTitles);
-			return romanTitles;
+			string filename = "malefemale.json";
+			switch (genderType)
+			{
+				case GenderType.malemale: filename = "malemale.json"; break;
+				case GenderType.femalefemale: filename = "femalefemale.json"; break;
+			}
+			return System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/wwwroot/" + filename);
 		}
 	}
 }

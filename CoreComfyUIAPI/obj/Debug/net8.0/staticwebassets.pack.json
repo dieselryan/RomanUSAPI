@@ -9,6 +9,18 @@
       "PackagePath": "staticwebassets\\fasterworkflow.json"
     },
     {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\femalefemale.json",
+      "PackagePath": "staticwebassets\\femalefemale.json"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\malefemale.json",
+      "PackagePath": "staticwebassets\\malefemale.json"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\malemale.json",
+      "PackagePath": "staticwebassets\\malemale.json"
+    },
+    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\models\\age_deploy.prototxt",
       "PackagePath": "staticwebassets\\models\\age_deploy.prototxt"
     },
@@ -31,6 +43,94 @@
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusv1.json",
       "PackagePath": "staticwebassets\\romanusv1.json"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates.lnk",
+      "PackagePath": "staticwebassets\\templates.lnk"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_001_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_001_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_002_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_002_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_003_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_003_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_pri_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_pri_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MF\\anime_001_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\MF\\anime_001_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MF\\anime_pri_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\MF\\anime_pri_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MM\\anime_001_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\MM\\anime_001_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MM\\anime_pri_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\MM\\anime_pri_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_001.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_001.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_002.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_002.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_003.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_003.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_002.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_002.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_003.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_003.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_004.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_004.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_005.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_005.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_006.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_006.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_001.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_001.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_002.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_002.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_pri.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtes.json",
