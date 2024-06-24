@@ -49,88 +49,832 @@
       "PackagePath": "staticwebassets\\templates.lnk"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_001_free.png",
-      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_001_free.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_0_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_002_free.png",
-      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_002_free.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_1_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_003_free.png",
-      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_003_free.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_2_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\anime_pri_free.png",
       "PackagePath": "staticwebassets\\templates\\Anime\\FF\\anime_pri_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MF\\anime_001_free.png",
-      "PackagePath": "staticwebassets\\templates\\Anime\\MF\\anime_001_free.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MF\\anime_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\MF\\anime_0_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MF\\anime_pri_free.png",
       "PackagePath": "staticwebassets\\templates\\Anime\\MF\\anime_pri_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MM\\anime_001_free.png",
-      "PackagePath": "staticwebassets\\templates\\Anime\\MM\\anime_001_free.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MM\\anime_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Anime\\MM\\anime_0_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\MM\\anime_pri_free.png",
       "PackagePath": "staticwebassets\\templates\\Anime\\MM\\anime_pri_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_001.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_001.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_0_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_002.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_002.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_1_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_003.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_003.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_2_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\FF\\cartoon_pri.png",
       "PackagePath": "staticwebassets\\templates\\Cartoon\\FF\\cartoon_pri.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_002.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_002.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_0_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_003.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_003.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_1_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_004.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_004.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_2_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_005.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_005.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_3_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_006.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_006.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_4_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MF\\cartoon_pri.png",
       "PackagePath": "staticwebassets\\templates\\Cartoon\\MF\\cartoon_pri.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_001.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_001.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_0_free.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_002.png",
-      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_002.png"
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_1_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cartoon\\MM\\cartoon_pri.png",
       "PackagePath": "staticwebassets\\templates\\Cartoon\\MM\\cartoon_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_001.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_001.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_002.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_002.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_003.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_003.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_004.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_004.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_005.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_005.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_006.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_006.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_007.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_007.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\FF\\christmas_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\FF\\christmas_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MF\\christmas_001.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MF\\christmas_001.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MF\\christmas_002.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MF\\christmas_002.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MF\\christmas_003.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MF\\christmas_003.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MF\\christmas_004.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MF\\christmas_004.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MF\\christmas_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MF\\christmas_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MM\\christmas_001.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MM\\christmas_001.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MM\\christmas_002.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MM\\christmas_002.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MM\\christmas_003.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MM\\christmas_003.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MM\\christmas_004.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MM\\christmas_004.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Christmas\\MM\\christmas_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Christmas\\MM\\christmas_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_10_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_10_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_11_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_11_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_12_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_12_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_13_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_13_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_14_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_14_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_15_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_15_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_16_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_16_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_17_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_17_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_18_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_18_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_19_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_19_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_20_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_20_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_21_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_21_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_6_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_6_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_7_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_7_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_8_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_8_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_9_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_9_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\FF\\cyberpunk_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\FF\\cyberpunk_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_10_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_10_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_11_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_11_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_12_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_12_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_6_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_6_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_7_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_7_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_8_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_8_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_9_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_9_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MF\\cyberpunk_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MF\\cyberpunk_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MM\\cyberpunk_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MM\\cyberpunk_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MM\\cyberpunk_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MM\\cyberpunk_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MM\\cyberpunk_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MM\\cyberpunk_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Cyberpunk\\MM\\cyberpunk_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Cyberpunk\\MM\\cyberpunk_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\FF\\painting_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\FF\\painting_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MF\\painting_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MF\\painting_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MF\\painting_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MF\\painting_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MF\\painting_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MF\\painting_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MF\\painting_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MF\\painting_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\painting_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MM\\painting_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\painting_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MM\\painting_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\painting_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MM\\painting_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\painting_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MM\\painting_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_0.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_0.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_1.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_1.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_2.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_2.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_3.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_3.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_5.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_5.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_6.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_6.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_7.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_7.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\prom_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\FF\\prom_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_0.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_0.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_1.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_1.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_2.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_2.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_3.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_3.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_4.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_4.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_5.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_5.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MF\\prom_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MF\\prom_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MM\\prom_0.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MM\\prom_0.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MM\\prom_1.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MM\\prom_1.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MM\\prom_2.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MM\\prom_2.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MM\\prom_4.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MM\\prom_4.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\MM\\prom_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Prom\\MM\\prom_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_10_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_10_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_11_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_11_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_12_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_12_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_13_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_13_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_14_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_14_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_6_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_6_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_7_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_7_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_8_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_8_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_9_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_9_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\FF\\sketch_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\FF\\sketch_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_6_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_6_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_7_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_7_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_8_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_8_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MF\\sketch_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MF\\sketch_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MM\\sketch_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MM\\sketch_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MM\\sketch_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MM\\sketch_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MM\\sketch_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MM\\sketch_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MM\\sketch_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MM\\sketch_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Sketch\\MM\\sketch_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Sketch\\MM\\sketch_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_10_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_10_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_11_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_11_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_6_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_6_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_7_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_7_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_8_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_8_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_9_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_9_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\FF\\travel_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\FF\\travel_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_5_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_5_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_6_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_6_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_7_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_7_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_8_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_8_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MF\\travel_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MF\\travel_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MM\\travel_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MM\\travel_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MM\\travel_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MM\\travel_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Travel\\MM\\travel_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Travel\\MM\\travel_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_0.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_0.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_1.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_1.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_2.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_2.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_3.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_3.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_4.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_4.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_5.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_5.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\FF\\valentines_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\FF\\valentines_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MF\\valentines_0.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MF\\valentines_0.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MF\\valentines_1.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MF\\valentines_1.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MF\\valentines_2.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MF\\valentines_2.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MF\\valentines_3.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MF\\valentines_3.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MF\\valentines_4.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MF\\valentines_4.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MF\\valentines_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MF\\valentines_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MM\\valentines_0.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MM\\valentines_0.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MM\\valentines_1.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MM\\valentines_1.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MM\\valentines_2.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MM\\valentines_2.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MM\\valentines_3.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MM\\valentines_3.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MM\\valentines_5.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MM\\valentines_5.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Valentines\\MM\\valentines_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Valentines\\MM\\valentines_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\FF\\wedding_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\FF\\wedding_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\FF\\wedding_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\FF\\wedding_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\FF\\wedding_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\FF\\wedding_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\FF\\wedding_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\FF\\wedding_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MF\\wedding_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MF\\wedding_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MF\\wedding_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MF\\wedding_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MF\\wedding_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MF\\wedding_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MF\\wedding_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MF\\wedding_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MF\\wedding_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MF\\wedding_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MF\\wedding_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MF\\wedding_pri.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MM\\wedding_0_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MM\\wedding_0_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MM\\wedding_1_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MM\\wedding_1_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MM\\wedding_2_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MM\\wedding_2_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MM\\wedding_3_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MM\\wedding_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MM\\wedding_4_free.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MM\\wedding_4_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Wedding\\MM\\wedding_pri.png",
+      "PackagePath": "staticwebassets\\templates\\Wedding\\MM\\wedding_pri.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtes.json",

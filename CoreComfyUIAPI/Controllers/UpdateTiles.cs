@@ -31,28 +31,31 @@ namespace CoreComfyUIAPI.Controllers
 
 			Tile t = new Tile();
 			t.Id = uniqueid;
+			t.FileName = file.Name;
 			uniqueid = uniqueid + 1;
 			if (file.Name.Contains("_pri"))
 			{
 				t.Level = 1;
+				t.pro = false;
 			}
             else
             {
-                t.Level = 2;
+				if (t.FileName.Contains("_free"))
+				{
+					t.pro = false;
+				}
+				else
+				{
+					t.pro = true;
+				}
+				t.Level = 2;
             }
 			t.Name = folder;
 			t.Parent = 0;
 
 			t.path = string.Format("https://reliable-aloe-422021-u5.uw.r.appspot.com/image?template={0}", file.Name);
-			t.FileName = file.Name;
-			if(t.FileName.Contains("_free"))
-			{
-				t.pro = false ;
-			}
-			else
-			{
-				t.pro = true;
-			}
+
+			
 			return t;
 
 		}
