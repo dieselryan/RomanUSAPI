@@ -70,13 +70,20 @@ namespace CoreComfyUIAPI.Controllers
 		[HttpGet]
 		public string Get(GenderType genderType)
 		{
-			string filename = "malefemale.json";
-			switch (genderType)
+			try
 			{
-				case GenderType.malemale: filename = "malemale.json"; break;
-				case GenderType.femalefemale: filename = "femalefemale.json"; break;
+				string filename = "malefemale.json";
+				switch (genderType)
+				{
+					case GenderType.malemale: filename = "malemale.json"; break;
+					case GenderType.femalefemale: filename = "femalefemale.json"; break;
+				}
+				return System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/wwwroot/" + filename);
 			}
-			return System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/wwwroot/" + filename);
+			catch (Exception ex)
+			{
+				return ex.Message;
+			}
 		}
 	}
 }
