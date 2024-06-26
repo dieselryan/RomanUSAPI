@@ -12,6 +12,7 @@ namespace CoreComfyUIAPI
 
 	public class ImageUploader
 	{
+		
 	/*	public static async Task<Mat> ConvertIFormFileToMat(IFormFile file)
 		{
 			if (file.Length > 0)
@@ -118,7 +119,7 @@ namespace CoreComfyUIAPI
 			}
 			return profilePic.SessionID +result;
 		}
-		public async Task<string> UploadImageAsync(IFormFile image, ProfilePic profilePic)
+		public async Task<string> UploadImageAsync(IFormFile image, ProfilePic profilePic, string hostURL)
 		{
 			
 			try
@@ -154,7 +155,7 @@ namespace CoreComfyUIAPI
 						formData.Add(new StringContent("input"), "type");
 
 						// Send the multipart form data request
-						var response = await client.PostAsync("http://34.145.0.140:8188/upload/image", formData);
+						var response = await client.PostAsync(hostURL+  "/upload/image", formData);
 
 					
 

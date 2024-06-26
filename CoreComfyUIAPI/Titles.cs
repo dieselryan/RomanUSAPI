@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace CoreComfyUIAPI
 {
@@ -29,5 +30,9 @@ namespace CoreComfyUIAPI
 		public int Id { get; set; }
 		public string path { get; set; }
 		public bool pro { get; set; }
+		public List<Tile> subTiles { get; set; }	
+		public Tile() {
+			subTiles = new List<Tile>();
+		}
 	}
 }

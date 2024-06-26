@@ -18,11 +18,13 @@ namespace CoreComfyUIAPI.Controllers
 	[Route("[controller]")]
 	public class UploadController : ControllerBase
 	{
-		private readonly ImageUploader _imageUploader;
+		
+		private readonly ApplicationSettings _settings;
 
-		public UploadController()
+		public UploadController(ApplicationSettings settings)
 		{
 			//_imageUploader = imageUploader;
+			_settings = settings;
 		}
 	
 		[HttpPost("UploadImage")]
@@ -37,7 +39,7 @@ namespace CoreComfyUIAPI.Controllers
 			try {
 				ImageUploader imageUploader = new ImageUploader(); 
 
-				string imagePath = await imageUploader.UploadImageAsync(image, profilePic);
+				string imagePath = await imageUploader.UploadImageAsync(image, profilePic, _settings.MyAppUrl);
 				// Return the file path as a response
 		
 				return Ok(imagePath);

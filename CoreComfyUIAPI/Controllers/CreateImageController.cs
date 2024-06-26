@@ -15,6 +15,7 @@ using Newtonsoft.Json.Linq;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.AspNetCore.Hosting;
 using System.Linq;
+using System.Runtime;
 
 
 namespace CoreComfyUIAPI.Controllers
@@ -23,13 +24,13 @@ namespace CoreComfyUIAPI.Controllers
 	[Route("[controller]")]
 	public class CreateImageController : ControllerBase
 	{
-		private static readonly Uri WebSocketUri = new Uri("ws://" + "34.145.0.140:8188/ws?clientId=");
 		private readonly IWebHostEnvironment _hostingEnvironment;
+		private readonly ApplicationSettings _settings;
 
-		public CreateImageController(IWebHostEnvironment hostingEnvironment)
+		public CreateImageController(IWebHostEnvironment hostingEnvironment, ApplicationSettings settings)
 		{
 			_hostingEnvironment = hostingEnvironment;
-
+			_settings = settings;
 		}
 		private string InjectValues(string Json, string primaryImage, string secondaryImage, string templateImage)
 		{
@@ -68,7 +69,7 @@ namespace CoreComfyUIAPI.Controllers
 					var modifiedJsonStr = InjectValues(postData, primaryImage, secondaryImage, templateImage);
 					var content = new StringContent(modifiedJsonStr, Encoding.UTF8, "application/json");
 					// Send POST request
-					var response = await client.PostAsync($"http://34.145.0.140:8188/prompt", content );
+					var response = await client.PostAsync(_settings.MyAppUrl +  $"/prompt", content );
 					// Check if the request was successful
 					if (response.IsSuccessStatusCode)
 					{

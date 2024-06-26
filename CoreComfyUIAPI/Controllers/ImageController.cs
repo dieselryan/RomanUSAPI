@@ -11,10 +11,13 @@ namespace CoreComfyUIAPI.Controllers
 	public class ImageController : Controller
 	{
 		private readonly IHttpClientFactory _httpClientFactory;
+		private readonly ApplicationSettings _settings;
 
-		public ImageController(IHttpClientFactory httpClientFactory)
+		public ImageController(IHttpClientFactory httpClientFactory, ApplicationSettings settings)
 		{
 			_httpClientFactory = httpClientFactory;
+			_settings = settings;
+
 		}
 		//not checking
 		[HttpGet]
@@ -23,7 +26,8 @@ namespace CoreComfyUIAPI.Controllers
 			string imageUrl;
 			// URL of the image on the remote server
 			template = Uri.EscapeDataString (template.Replace(" ", "+"));
-			imageUrl = $"http://34.145.0.140:8188/view?filename={template}&type=input&subfolder=";
+
+			imageUrl =_settings.MyAppUrl +  $"/view?filename={template}&type=input&subfolder=";
 			
 
 			// Create HttpClient
@@ -56,7 +60,7 @@ namespace CoreComfyUIAPI.Controllers
 		public async Task<IActionResult> GetImage(string imageName)
 		{
 			
-			string imageUrl = $"http://34.145.0.140:8188/view?filename={imageName}.png&type=output&subfolder=";
+			string imageUrl = _settings.MyAppUrl + $"/view?filename={imageName}.png&type=output&subfolder=";
 			// Create HttpClient
 
 			var httpClient = _httpClientFactory.CreateClient();

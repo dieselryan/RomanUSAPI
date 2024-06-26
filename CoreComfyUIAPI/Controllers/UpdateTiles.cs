@@ -18,11 +18,13 @@ namespace CoreComfyUIAPI.Controllers
 	{
 		private readonly ILogger<RomanTitles> _logger;
 		private int uniqueid { get; set; }
+		private readonly ApplicationSettings _settings;
 
-		public UpdateTiles(ILogger<RomanTitles> logger)
+		public UpdateTiles(ILogger<RomanTitles> logger, ApplicationSettings settings)
 		{
 			_logger = logger;
 			uniqueid = 0;
+			_settings = settings;
 		}
 
 		private Tile CreateTile(FileInfo file, string folder)
@@ -62,7 +64,7 @@ namespace CoreComfyUIAPI.Controllers
 		private async Task UploadFileAsync(FileInfo file)
 		{
 			var client = new HttpClient();
-			var request = new HttpRequestMessage(HttpMethod.Post, "http://34.145.0.140:8188/upload/image");
+			var request = new HttpRequestMessage(HttpMethod.Post, _settings.MyAppUrl +  "/upload/image");
 			var content = new MultipartFormDataContent();
 			content.Add(new StreamContent(System.IO.File.OpenRead(file.FullName)), "image", file.Name);
 			content.Add(new StringContent(""), "subfolder");
@@ -76,19 +78,34 @@ namespace CoreComfyUIAPI.Controllers
 		private void populateTitles(RomanTitles rt, string primaryDirectory, string filter)
 		{
 			DirectoryInfo directoryInfo = new DirectoryInfo(primaryDirectory);
+	
 			
 			foreach (DirectoryInfo directory in directoryInfo.GetDirectories())
 			{
+		
+
 				string folderName = directory.Name;
 				foreach (DirectoryInfo subdirectory in directory.GetDirectories())
 				{
+					RomanTitles subTiles = new RomanTitles();
 					if (subdirectory.Name == filter)
 					{
+						Tile parentTile = new Tile();
 						FileInfo[] files = subdirectory.GetFiles();
 						foreach (FileInfo file in files)
 						{
-							rt.tiles.Add(CreateTile(file, folderName));
+							Tile responseTile = CreateTile(file,folderName);
+							if (responseTile.Level == 1)
+							{
+								parentTile = responseTile;
+							}
+							else
+							{
+								subTiles.tiles.Add(responseTile);
+							}
 						}
+						parentTile.subTiles = subTiles.tiles;
+						rt.tiles.Add(parentTile);
 					}
 				}
 			}

@@ -12,10 +12,19 @@ using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace CoreComfyUIAPI.Controllers
 {
+
+
+
 	[ApiController]
 	[Route("[controller]")]
 	public class StatusController : ControllerBase
 	{
+		private readonly ApplicationSettings _settings;
+		public StatusController(ApplicationSettings settings)
+		{
+			_settings = settings;
+
+		}
 		[HttpGet]
 		public async Task<IActionResult> GetStatus(string PromptId)
 		{
@@ -25,7 +34,7 @@ namespace CoreComfyUIAPI.Controllers
 				{
 
 					//Check the queue
-					var response = await client.GetAsync($"http://34.145.0.140:8188/queue");
+					var response = await client.GetAsync(_settings.MyAppUrl +  $"/queue");
 					if (response.IsSuccessStatusCode)
 					{
 						string responseContent = await response.Content.ReadAsStringAsync();
@@ -58,7 +67,7 @@ namespace CoreComfyUIAPI.Controllers
 			{
 				using (HttpClient client = new HttpClient())
 				{
-					var response = await client.GetAsync($"http://34.145.0.140:8188/history/" + PromptId);
+					var response = await client.GetAsync(_settings.MyAppUrl +  $"/history/" + PromptId);
 					// Check if the request was successful
 					if (response.IsSuccessStatusCode)
 					{

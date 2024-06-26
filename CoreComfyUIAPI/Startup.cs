@@ -14,6 +14,12 @@ using System.Threading.Tasks;
 
 namespace CoreComfyUIAPI
 {
+	public class ApplicationSettings
+	{
+		public string MyAppUrl { get; set; }
+		public string Logging { get; set;}
+	}
+
 	public class Startup
 	{
 		public Startup(IConfiguration configuration)
@@ -26,6 +32,13 @@ namespace CoreComfyUIAPI
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			// Bind configuration to a settings class
+
+			var appSettings = new ApplicationSettings();
+			Configuration.GetSection("ApplicationSettings").Bind(appSettings);
+
+			// Making the settings available for DI
+			services.AddSingleton(appSettings);
 			services.AddHttpClient();
 			services.AddControllers();
 			services.AddSwaggerGen(c =>
