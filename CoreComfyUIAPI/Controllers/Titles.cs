@@ -8,6 +8,7 @@ using System.Net;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using Newtonsoft.Json;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace CoreComfyUIAPI.Controllers
 {
@@ -16,50 +17,16 @@ namespace CoreComfyUIAPI.Controllers
 	public class Tiles : ControllerBase
 	{
 		private readonly ILogger<RomanTitles> _logger;
+		private readonly IMemoryCache _cache;
 
-		public Tiles(ILogger<RomanTitles> logger)
+		public Tiles(ILogger<RomanTitles> logger, IMemoryCache cache)
 		{
 			_logger = logger;
+			_cache = cache;
 		}
 
-		public static readonly string[] Tempfiles = {
-		"Al+Feldstein_00002_.png",
-		"Chris+Cunningham_00002_.png",
-		"Emilia+Wilk_00001_.png",
-		"Henri-Edmond+Cross_00001_.png",
-		"Tim+Doyle_00001_.png",
-		"Willem+de+Kooning_00002_.png",
-		"Vincent+Desiderio_00003_.png",
-		"Willem+de+Kooning_00001_.png",
-		"Ian+Davenport_00005_.png",
-		"Garry+Winogrand_00001_.png"
-	};
-		private void populateTitles(RomanTitles rt)
-		{
-			ImageReader reader = new ImageReader();
-			List<string> imagefiles = reader.ReadLocalImages();
-
-			for (int i = 0; i < 9; i++)
-			{
-				Tile t = new Tile();
-				t.Id = i;
-				t.Level = 1;
-				t.Name = Tempfiles[i];
-				t.Parent = 0;
-
-				t.path = string.Format("https://reliable-aloe-422021-u5.uw.r.appspot.com/image?template={0}", (Tempfiles[i]));
-				t.FileName = Tempfiles[i];
-				if (i > 3)
-				{
-					t.pro = true;
-				}
-				else { 
-					t.pro = false;
-				}
-				rt.tiles.Add(t);
-			}
-
-		}
+	
+		
 		//[HttpGet]
 		//public RomanTitles Get()
 		//{
@@ -70,15 +37,23 @@ namespace CoreComfyUIAPI.Controllers
 		[HttpGet]
 		public string Get(GenderType genderType)
 		{
+			string cacheKey = "genderjson" + genderType.ToString();
 			try
 			{
-				string filename = "malefemale.json";
-				switch (genderType)
+				if (!_cache.TryGetValue(cacheKey, out string data))
 				{
-					case GenderType.malemale: filename = "malemale.json"; break;
-					case GenderType.femalefemale: filename = "femalefemale.json"; break;
+					string filename = "malefemale.json";
+					switch (genderType)
+					{
+						case GenderType.malemale: filename = "malemale.json"; break;
+						case GenderType.femalefemale: filename = "femalefemale.json"; break;
+					}
+					data = System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/wwwroot/" + filename);
+					var cacheEntryOptions = new MemoryCacheEntryOptions()
+									.SetAbsoluteExpiration(TimeSpan.FromDays(365));
+					_cache.Set(cacheKey, data, cacheEntryOptions);
 				}
-				return System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + "/wwwroot/" + filename);
+				return data;
 			}
 			catch (Exception ex)
 			{

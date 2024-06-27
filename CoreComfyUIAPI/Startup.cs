@@ -37,6 +37,8 @@ namespace CoreComfyUIAPI
 			var appSettings = new ApplicationSettings();
 			Configuration.GetSection("ApplicationSettings").Bind(appSettings);
 
+			services.AddMemoryCache();
+
 			// Making the settings available for DI
 			services.AddSingleton(appSettings);
 			services.AddHttpClient();
