@@ -16,6 +16,7 @@ using Microsoft.Extensions.Caching.Memory;
 using Microsoft.AspNetCore.Hosting;
 using System.Linq;
 using System.Runtime;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 namespace CoreComfyUIAPI.Controllers
@@ -26,14 +27,20 @@ namespace CoreComfyUIAPI.Controllers
 	{
 		private readonly IWebHostEnvironment _hostingEnvironment;
 		private readonly ApplicationSettings _settings;
+		private readonly IMemoryCache _cache;
 
-		public CreateImageController(IWebHostEnvironment hostingEnvironment, ApplicationSettings settings)
+
+		public CreateImageController(IWebHostEnvironment hostingEnvironment, ApplicationSettings settings, IMemoryCache cache)
 		{
 			_hostingEnvironment = hostingEnvironment;
 			_settings = settings;
+			_cache = cache;
+			
 		}
 		private string InjectValues(string Json, string primaryImage, string secondaryImage, string templateImage)
 		{
+		
+
 			JObject jsonObject = JObject.Parse(Json);
 			int underscoreIndex = templateImage.IndexOf('_');
 			if (underscoreIndex != -1)
@@ -54,10 +61,23 @@ namespace CoreComfyUIAPI.Controllers
 		public async Task<IActionResult> CreateImage(string primaryImage,string secondaryImage, string templateImage)
 		{
 			string clientId = Guid.NewGuid().ToString();
-
+			string cacheKey = "ci_requestlist";
 			try
 			{
-				if(primaryImage == null) { return BadRequest("No primary image"); }
+				if (!_cache.TryGetValue(cacheKey, out string data))
+				{
+					data = DateTime.Now.ToString() + primaryImage + ":" + secondaryImage + ":" + templateImage;
+				}
+				else
+				{
+					data = data + Environment.NewLine + DateTime.Now.ToString() + primaryImage + ":" + secondaryImage + ":" + templateImage;
+					
+				}
+				var cacheEntryOptions = new MemoryCacheEntryOptions()
+						.SetAbsoluteExpiration(TimeSpan.FromDays(1));
+				_cache.Set(cacheKey, data, cacheEntryOptions);
+
+				if (primaryImage == null) { return BadRequest("No primary image"); }
 				if (secondaryImage == null) { return BadRequest("No secondary image"); }
 				if (templateImage == null) { return BadRequest("No template image"); }
 				templateImage = templateImage.Replace(" ", "+");
@@ -92,7 +112,7 @@ namespace CoreComfyUIAPI.Controllers
 								}
 							}
 						}
-
+					
 						return Ok(responseContent);
 					}
 					else
@@ -103,11 +123,28 @@ namespace CoreComfyUIAPI.Controllers
 			}
 			catch (Exception ex)
 			{
+		
+		
 				// Handle any exceptions
 				return StatusCode(500, $"An error occurred: {ex.Message}");
 			}
 		}
+		
+		[HttpGet("{GetCache}")]
+		public async Task<IActionResult> GetCache()
+		{
+			if (_cache.TryGetValue("ci_requestlist", out string data))
+			{
+			
+				return Ok(data);
+			}
+			else
+			{
+				return Ok("no data");
+			}
+		}
 	}
+
 	/*	static async Task<Dictionary<string, List<byte[]>>> GetImages(ClientWebSocket ws, string promptId, string serverAddress)
 		{
 			var outputImages = new Dictionary<string, List<byte[]>>();

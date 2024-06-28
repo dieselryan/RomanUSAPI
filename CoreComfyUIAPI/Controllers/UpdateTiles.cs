@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using Newtonsoft.Json;
 using System.Net.Http;
+using System.ComponentModel;
 
 namespace CoreComfyUIAPI.Controllers
 {
@@ -40,8 +41,8 @@ namespace CoreComfyUIAPI.Controllers
 				t.Level = 1;
 				t.pro = false;
 			}
-            else
-            {
+			else
+			{
 				if (t.FileName.Contains("_free"))
 				{
 					t.pro = false;
@@ -51,20 +52,20 @@ namespace CoreComfyUIAPI.Controllers
 					t.pro = true;
 				}
 				t.Level = 2;
-            }
+			}
 			t.Name = folder;
 			t.Parent = 0;
 
 			t.path = string.Format("https://reliable-aloe-422021-u5.uw.r.appspot.com/image?template={0}", file.Name);
 
-			
+
 			return t;
 
 		}
 		private async Task UploadFileAsync(FileInfo file)
 		{
 			var client = new HttpClient();
-			var request = new HttpRequestMessage(HttpMethod.Post, _settings.MyAppUrl +  "/upload/image");
+			var request = new HttpRequestMessage(HttpMethod.Post, _settings.MyAppUrl + "/upload/image");
 			var content = new MultipartFormDataContent();
 			content.Add(new StreamContent(System.IO.File.OpenRead(file.FullName)), "image", file.Name);
 			content.Add(new StringContent(""), "subfolder");
@@ -78,11 +79,11 @@ namespace CoreComfyUIAPI.Controllers
 		private void populateTitles(RomanTitles rt, string primaryDirectory, string filter)
 		{
 			DirectoryInfo directoryInfo = new DirectoryInfo(primaryDirectory);
-	
-			
+
+
 			foreach (DirectoryInfo directory in directoryInfo.GetDirectories())
 			{
-		
+
 
 				string folderName = directory.Name;
 				foreach (DirectoryInfo subdirectory in directory.GetDirectories())
@@ -94,7 +95,7 @@ namespace CoreComfyUIAPI.Controllers
 						FileInfo[] files = subdirectory.GetFiles();
 						foreach (FileInfo file in files)
 						{
-							Tile responseTile = CreateTile(file,folderName);
+							Tile responseTile = CreateTile(file, folderName);
 							if (responseTile.Level == 1)
 							{
 								parentTile = responseTile;
@@ -139,9 +140,59 @@ namespace CoreComfyUIAPI.Controllers
 				System.IO.File.WriteAllText(Directory.GetCurrentDirectory() + "/wwwroot/malefemale.json", jsonString);
 
 				return "success";
-			} catch {
+			}
+			catch
+			{
 				return "failed";
+			}
+
+		}
+
+		private async void callRequest(Tile tile)
+		{
+			var client = new HttpClient();
+			if (tile != null)
+			{
+				var request = new HttpRequestMessage(HttpMethod.Get, tile.path);
+				var response = await client.SendAsync(request);
+			}
+			else
+			{ var test= tile.Name; }
+
+		}
+		[HttpGet("{warmup}")]
+		public async void warmup()
+		{
+			try
+			{
+				List<string> list = new List<string>();
+				list.Add("/wwwroot/femalefemale.json");
+				list.Add("/wwwroot/malemale.json");
+				list.Add("/wwwroot/malefemale.json");
+
+				foreach (string item in list)
+				{
+					var jsonString = System.IO.File.ReadAllText(Directory.GetCurrentDirectory() + item);
+
+					var RomanTitles = JsonConvert.DeserializeObject<RomanTitles>(jsonString);
+					foreach (Tile tile in RomanTitles.tiles)
+					{
+						callRequest(tile);
+						foreach (Tile subTile in tile.subTiles)
+						{
+							callRequest(subTile);
+						}
 					}
+				}
+				//	System.IO.File.WriteAllText(Directory.GetCurrentDirectory() + "/wwwroot/malemale.json", jsonString);
+			//	System.IO.File.WriteAllText(Directory.GetCurrentDirectory() + "/wwwroot/malefemale.json", jsonString);
+
+				//return "success";
+			} 
+			catch (Exception ex)
+			{
+				BadRequest(ex);
+			}
 
 		}
 	}

@@ -33,7 +33,7 @@ namespace CoreComfyUIAPI.Controllers
 			
 			try
 			{
-				MemoryStream data = null;
+			
 				if (!_cache.TryGetValue(cacheKey, out byte[] imageBytes))
 				{
 					template = Uri.EscapeDataString(template.Replace(" ", "+"));

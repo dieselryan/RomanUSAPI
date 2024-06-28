@@ -413,10 +413,6 @@
       "PackagePath": "staticwebassets\\templates\\Painting\\MF\\mf_painting_pri.png"
     },
     {
-      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_0_free.png",
-      "PackagePath": "staticwebassets\\templates\\Painting\\MM\\mm_painting_0_free.png"
-    },
-    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_1_free.png",
       "PackagePath": "staticwebassets\\templates\\Painting\\MM\\mm_painting_1_free.png"
     },
@@ -427,6 +423,10 @@
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_3_free.png",
       "PackagePath": "staticwebassets\\templates\\Painting\\MM\\mm_painting_3_free.png"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_pri_free.png",
+      "PackagePath": "staticwebassets\\templates\\Painting\\MM\\mm_painting_pri_free.png"
     },
     {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\ff_prom_0.png",

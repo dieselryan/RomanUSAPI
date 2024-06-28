@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aILB4hYb7/7EsBkBZzlHOS110CosgJ00oXfJiV+OWP8=",
+  "Hash": "+eh0U7+JlI4kllv+Q4Fo3iPH3XC2wfMg0Sv2OqU/rrM=",
   "Source": "CoreComfyUIAPI",
   "BasePath": "_content/CoreComfyUIAPI",
   "Mode": "Default",
@@ -1974,25 +1974,6 @@
       "OriginalItemSpec": "wwwroot\\templates\\Painting\\MF\\mf_painting_pri.png"
     },
     {
-      "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_0_free.png",
-      "SourceId": "CoreComfyUIAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
-      "BasePath": "_content/CoreComfyUIAPI",
-      "RelativePath": "templates/Painting/MM/mm_painting_0_free.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\templates\\Painting\\MM\\mm_painting_0_free.png"
-    },
-    {
       "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_1_free.png",
       "SourceId": "CoreComfyUIAPI",
       "SourceType": "Discovered",
@@ -2048,6 +2029,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\templates\\Painting\\MM\\mm_painting_3_free.png"
+    },
+    {
+      "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Painting\\MM\\mm_painting_pri_free.png",
+      "SourceId": "CoreComfyUIAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\",
+      "BasePath": "_content/CoreComfyUIAPI",
+      "RelativePath": "templates/Painting/MM/mm_painting_pri_free.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\Painting\\MM\\mm_painting_pri_free.png"
     },
     {
       "Identity": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Prom\\FF\\ff_prom_0.png",
