@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreComfyUIAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5619eaf605681dbe6660621d5e8ad6a8c45baa6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd8d45ba5a3f66a83f7ec4e9266b5bc791ffbc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreComfyUIAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreComfyUIAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
