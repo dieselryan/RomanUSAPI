@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json",
+      "PackagePath": "staticwebassets\\Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json"
+    },
+    {
+      "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json",
+      "PackagePath": "staticwebassets\\Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json"
+    },
+    {
       "Id": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json",
       "PackagePath": "staticwebassets\\Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json"
     },

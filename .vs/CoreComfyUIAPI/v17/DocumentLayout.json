@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\wwwroot\\romantic_us_latest_jun_29th_(_api version)_workflow_api.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\romantic_us_latest_jun_29th_(_api version)_workflow_api.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\controllers\\createimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\createimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\wwwroot\\fasterworkflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\fasterworkflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\wwwroot\\templates\\anime\\ff\\ff_anime_2_free.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\templates\\anime\\ff\\ff_anime_2_free.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\wwwroot\\templates\\anime\\ff\\ff_anime_1_free.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\templates\\anime\\ff\\ff_anime_1_free.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\wwwroot\\romantic_us_latest_jun_29th_(non_api version)_workflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\romantic_us_latest_jun_29th_(non_api version)_workflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\wwwroot\\templates\\anime\\ff\\ff_anime_pri_free.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\templates\\anime\\ff\\ff_anime_pri_free.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\controllers\\updatetiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\updatetiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\controllers\\titles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\titles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\deploytxt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -37,6 +53,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\wwwroot\\romanusbck.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\romanusbck.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|d:\\dev\\romanticize me\\corecomfyuiapi\\romanusapi\\corecomfyuiapi\\controllers\\titles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\controllers\\titles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\imagereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\wwwroot\\fasterworkflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|solutionrelative:corecomfyuiapi\\wwwroot\\fasterworkflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6863A35A-1333-40E2-91A7-1AFBA42F5A16}|CoreComfyUIAPI\\CoreComfyUIAPI.csproj|D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\corecomfyuiapi\\wwwroot\\romanticize_me_draft_04_(non_api_version)_workflow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -101,17 +121,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CreateImageController.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\CreateImageController.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\CreateImageController.cs",
-              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\CreateImageController.cs*",
-              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\CreateImageController.cs*",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAEkAAAAmAAAA",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\CreateImageController.cs",
+              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\CreateImageController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAvwDMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T21:58:10.306Z",
               "IsPinned": true,
@@ -119,16 +139,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "fasterworkflow.json",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\fasterworkflow.json",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\fasterworkflow.json",
               "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\fasterworkflow.json",
               "RelativeToolTip": "CoreComfyUIAPI\\wwwroot\\fasterworkflow.json",
-              "ViewState": "AQIAAMoAAAAAAAAAAAASwNsAAAAvAAAA",
+              "ViewState": "AQIAAOUAAAAAAAAAAAASwPUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-04T16:26:57.555Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -137,32 +158,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Titles.cs",
-              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\Titles.cs",
-              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\Titles.cs",
-              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\Titles.cs",
-              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\Titles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T21:11:54.193Z",
-              "EditorCaption": ""
+              "Title": "ff_anime_1_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_1_free.png",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_1_free.png",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_1_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "RelativeToolTip": "CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_1_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-01T16:57:37.594Z",
+              "EditorCaption": " -  [English (United States)] - PNG [864x1080, 24 bit, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatusController.cs",
-              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\StatusController.cs",
-              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\StatusController.cs",
-              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\StatusController.cs",
-              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\StatusController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T17:55:14.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "UpdateTiles.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\UpdateTiles.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\UpdateTiles.cs",
@@ -175,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "romanusbck.json",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\romanusbck.json",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\romanusbck.json",
@@ -188,13 +195,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "deploytxt.txt",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\deploytxt.txt",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\deploytxt.txt",
               "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\deploytxt.txt",
               "RelativeToolTip": "CoreComfyUIAPI\\deploytxt.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-05-15T16:21:42.463Z",
               "EditorCaption": ""
@@ -202,6 +209,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json",
+              "RelativeToolTip": "CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(NON_API version)_workflow.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T16:32:02.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ff_anime_2_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_2_free.png",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_2_free.png",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_2_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "RelativeToolTip": "CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_2_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-01T16:46:02.803Z",
+              "EditorCaption": " -  [English (United States)] - PNG [864x1080, 24 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\StatusController.cs",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\StatusController.cs*",
+              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\StatusController.cs*",
+              "ViewState": "AQIAADUAAAAAAAAAAAAmwFEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T17:55:14.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Titles.cs",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\Titles.cs",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\Titles.cs",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\Titles.cs",
+              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\Titles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T21:11:54.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\UploadController.cs",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\UploadController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:28:25.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ff_anime_pri_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_pri_free.png",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_pri_free.png",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_pri_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "RelativeToolTip": "CoreComfyUIAPI\\wwwroot\\templates\\Anime\\FF\\ff_anime_pri_free.png -  [English (United States)] - PNG [864x1080, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-01T16:46:04.555Z",
+              "EditorCaption": " -  [English (United States)] - PNG [864x1080, 24 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\appsettings.json",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\appsettings.json",
@@ -214,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ProfilePic.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\ProfilePic.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\ProfilePic.cs",
@@ -226,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "LinksController.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\LinksController.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\LinksController.cs",
@@ -239,7 +322,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\ImageController.cs",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAADIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T17:04:45.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "FeedbackController.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\FeedbackController.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\FeedbackController.cs",
@@ -252,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ImageUploader.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\ImageUploader.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\ImageUploader.cs",
@@ -265,20 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImageController.cs",
-              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\ImageController.cs",
-              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\ImageController.cs",
-              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\ImageController.cs",
-              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\ImageController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T17:04:45.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Startup.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Startup.cs",
@@ -291,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Titles.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Titles.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Titles.cs",
@@ -304,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "ImageReader.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\ImageReader.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\ImageReader.cs",
@@ -317,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "workflowtest.json",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\workflowtest.json",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\workflowtest.json",
@@ -329,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\Romanticize_Me_Draft_04_(Non_API_Version)_workflow.json",
@@ -341,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "CoreComfyUIAPI.csproj",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\CoreComfyUIAPI.csproj",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\CoreComfyUIAPI.csproj",
@@ -353,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "API Version of romanme.json",
               "DocumentMoniker": "C:\\Users\\rdiss\\Downloads\\API Version of romanme.json",
               "ToolTip": "C:\\Users\\rdiss\\Downloads\\API Version of romanme.json",
@@ -363,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Program.cs",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\Program.cs",
@@ -375,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "CoreComfyUIAPI",
               "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\CoreComfyUIAPI.csproj",
               "RelativeDocumentMoniker": "CoreComfyUIAPI\\CoreComfyUIAPI.csproj",
@@ -392,13 +475,13 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "f5a8a9d1-ae67-4ab8-8dde-ab6259cbbdc9",
-        "Display": 0,
-        "X": 473,
-        "Y": 89,
-        "Width": 1759,
-        "Height": 905,
-        "WindowState": 2
+        "Id": "089757d8-cda0-423e-ae00-c434eee7310e",
+        "Display": 1,
+        "X": 1243,
+        "Y": 188,
+        "Width": 1491,
+        "Height": 759,
+        "WindowState": 0
       },
       "DocumentGroups": [
         {
@@ -407,15 +490,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UploadController.cs",
-              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\UploadController.cs",
-              "RelativeDocumentMoniker": "CoreComfyUIAPI\\Controllers\\UploadController.cs",
-              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\Controllers\\UploadController.cs",
-              "RelativeToolTip": "CoreComfyUIAPI\\Controllers\\UploadController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAAC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T18:20:58.167Z",
+              "DocumentIndex": 1,
+              "Title": "Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json",
+              "DocumentMoniker": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json",
+              "RelativeDocumentMoniker": "CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json",
+              "ToolTip": "D:\\dev\\romanticize me\\CoreComfyUIAPI\\RomanUSAPI\\CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json",
+              "RelativeToolTip": "CoreComfyUIAPI\\wwwroot\\Romantic_Us_Latest_Jun_29th_(_API version)_workflow_api.json",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T16:32:15.301Z",
               "EditorCaption": ""
             }
           ]

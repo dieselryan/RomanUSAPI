@@ -58,7 +58,7 @@ namespace CoreComfyUIAPI.Controllers
 
 		}
 		[HttpGet]
-		public async Task<IActionResult> CreateImage(string primaryImage,string secondaryImage, string templateImage)
+		public async Task<IActionResult> CreateImage(string primaryImage,string secondaryImage, string templateImage,bool pro )
 		{
 			string clientId = Guid.NewGuid().ToString();
 			string cacheKey = "ci_requestlist";

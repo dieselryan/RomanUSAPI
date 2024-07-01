@@ -37,10 +37,16 @@ namespace CoreComfyUIAPI.Controllers
 			if (!_cache.TryGetValue(cacheKey, out string data))
 			{
 				data = DateTime.Now.ToString() + ":upload image:" + SessionID + ":" + isFemale + ":" + isPrimaryProfile;
+				var cacheEntryOptions = new MemoryCacheEntryOptions()
+							.SetAbsoluteExpiration(TimeSpan.FromDays(1));
+				_cache.Set(cacheKey, data, cacheEntryOptions);
 			}
 			else
 			{
 				data = data + Environment.NewLine+ DateTime.Now.ToString() + ":upload image:" + SessionID + ":" + isFemale + ":" + isPrimaryProfile;
+				var cacheEntryOptions = new MemoryCacheEntryOptions()
+					.SetAbsoluteExpiration(TimeSpan.FromDays(1));
+				_cache.Set(cacheKey, data, cacheEntryOptions);
 			}
 
 
