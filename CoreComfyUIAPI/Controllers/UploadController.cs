@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Caching.Memory;
 //using Emgu.CV.Dnn;
 //using Emgu.CV.Structure;
 //using Emgu.CV;
@@ -20,17 +21,30 @@ namespace CoreComfyUIAPI.Controllers
 	{
 		
 		private readonly ApplicationSettings _settings;
+		private readonly IMemoryCache _cache;
 
-		public UploadController(ApplicationSettings settings)
+		public UploadController(ApplicationSettings settings, IMemoryCache cache)
 		{
 			//_imageUploader = imageUploader;
 			_settings = settings;
+			_cache = cache;
 		}
 	
 		[HttpPost("UploadImage")]
 		public async Task<IActionResult> UploadImage([FromForm] IFormFile image, [FromForm] string SessionID, [FromForm] Boolean isFemale, [FromForm] bool isPrimaryProfile)
 		{
-			ProfilePic profilePic = new ProfilePic
+			string cacheKey = "ci_requestlist";
+			if (!_cache.TryGetValue(cacheKey, out string data))
+			{
+				data = DateTime.Now.ToString() + ":upload image:" + SessionID + ":" + isFemale + ":" + isPrimaryProfile;
+			}
+			else
+			{
+				data = data + Environment.NewLine+ DateTime.Now.ToString() + ":upload image:" + SessionID + ":" + isFemale + ":" + isPrimaryProfile;
+			}
+
+
+				ProfilePic profilePic = new ProfilePic
 			{
 				IsFemale = isFemale,
 				IsPrimaryProfile = isPrimaryProfile,

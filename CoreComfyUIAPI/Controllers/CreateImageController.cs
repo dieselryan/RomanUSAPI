@@ -66,11 +66,12 @@ namespace CoreComfyUIAPI.Controllers
 			{
 				if (!_cache.TryGetValue(cacheKey, out string data))
 				{
-					data = DateTime.Now.ToString() + primaryImage + ":" + secondaryImage + ":" + templateImage;
+					data = DateTime.Now.ToString() + ":image_create:"+ primaryImage + ":" + secondaryImage + ":" + templateImage;
+
 				}
 				else
 				{
-					data = data + Environment.NewLine + DateTime.Now.ToString() + primaryImage + ":" + secondaryImage + ":" + templateImage;
+					data = data + Environment.NewLine + DateTime.Now.ToString() + ":image_create:" + primaryImage + ":" + secondaryImage + ":" + templateImage;
 					
 				}
 				var cacheEntryOptions = new MemoryCacheEntryOptions()
